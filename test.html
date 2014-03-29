@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="text/javascript" src="d3.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Where should I live?</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <script>
+    var counter = 2;
+    var limit = 10;
+    function addInput(divName){
+      if (counter == limit)  {
+        alert("You have reached the limit of adding " + counter + " inputs");
+      }
+      else {
+        var newdiv = document.createElement('div')
+
+        newdiv.innerHTML += "<input type='text' class='form-control' placeholder='username' name='user_name" + counter + "'>"
+        counter++;
+        document.getElementById(divName).appendChild(newdiv);
+     }
+  }
+  </script>
+  </head>
+
+
+
+  <body style="background-image:url('https://31.media.tumblr.com/845e1f9958fc4948e4d9aa385491b4b0/tumblr_n3275mPbwD1rl0no8o1_1280.jpg');">
+ 
+
+          <h1 style="text-align:center; color:blueviolet; text-shadow: 5px 0px 10px gray">where should i live?</h1>
+
+          <h3 style="text-align:center; color:darkmagenta; text-shadow: 5px 0px 10px gray"> I want to live in a place where this is valued:</h3>
+
+  <form class="form-signin" role="form" action="" method="post"> 
+    
+      <div id="dynamicInput">
+        <div id="dynamicInput">
+          <input style="margin-left:auto;margin-right:auto" type="text" class="form-control" placeholder="e.g. gender equality" name="user_name1" required autofocus>
+        </div>
+      </div>
+      <p></p>
+        <div style="text-align:center">
+          <button type="button" class="btn btn-lg btn-default" onClick="addInput('dynamicInput')" style="text-align:center" style="text-align:center" >More friends</button>
+          <button class="btn btn-lg btn-default" type="submit" id="submit" style="text-align:center" >Hang out</button>
+        </div>
+        </div>
+  </form>
+
+    <p> Percent filled: </p>
+    <script src="percentfilled.js"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>

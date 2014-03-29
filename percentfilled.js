@@ -1,5 +1,5 @@
-var width = 600,
-    height = 500,
+var width = 800,
+    height = 400,
     data = [{
         value: 500,
         pctFull: 0.20,
