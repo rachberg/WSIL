@@ -1,45 +1,45 @@
-var width = 800,
-    height = 400,
+var width = 1280,
+    height = 470,
     data = [{
         value: 500,
-        pctFull: 0.20,
-        name: "20%"
+        //continent: Europe,
+        name: "France"
     }, {
-        value: 200,
-        pctFull: 0.20,
-        name: "20%"
+        value: 2000,
+        //continent: NAmer,
+        name: "Canada"
     }, {
         value: 300,
-        pctFull: 0.20,
-        name: "20%"
+        //continent: NAmer,
+        name: "USA"
     }, {
         value: 1250,
-        pctFull: 0.75,
-        name: "75%"
+        //continent: Europe,
+        name: "Finland"
     }, {
         value: 1600,
-        pctFull: 0.25,
-        name: "20%"
+        //continent: SAmer,
+        name: "Colombia"
     }, {
         value: 1250,
-        pctFull: 0.65,
-        name: "65%"
+        //continent: Asia,
+        name: "China"
     }, {
         value: 12500,
-        pctFull: 0.95,
-        name: "95%"
+        //continent: Asia,
+        name: "Japan"
     }, {
         value: 1100,
-        pctFull: 0.05,
-        name: "5%"
+        //continent: Africa,
+        name: "Kenya"
     }, {
         value: 1050,
-        pctFull: 0.35,
-        name: "35%"
+        //continent: Oceania,
+        name: "Australia"
     }, {
         value: 1700,
-        pctFull: 0.40,
-        name: "40%"
+        //continent: Asia,
+        name: "India"
     }, ],
     kVals = [],
     rVals = [],
@@ -76,9 +76,25 @@ function drawGraph() {
     var node = chart.selectAll(".node")
         .data(force.nodes())
         .attr("class", "node")
-       .enter()
+        .enter()
         .append("g")
         .call(force.drag);
+
+        /*.attr("x", function(d) {return d.x;})
+        .attr("y", function(d) {return d.y;}); */
+
+         /*var g = svg.selectAll("g.node")
+      .data(nodes)
+    .enter().append("svg:g")
+      .attr("class", "node")
+      .attr("transform", function(d) { return "translate(" + d.x + ","
++ d.y + ")"; })
+      .call(force.drag);
+
+  g.append("svg:circle")
+      .attr("r", 5); */
+
+
 
     // blue circle
     node.append("circle")
@@ -88,6 +104,11 @@ function drawGraph() {
         .style("fill", "lavender")
 //        .style("fill", "#80dabe")
         .style("stroke", "#1a4876");
+
+    var labels = node.append("svg:text")
+        .attr("x", 10)
+        .attr("dy", ".31em")
+        .text(function(d) {return d.name;});
 
  
 
