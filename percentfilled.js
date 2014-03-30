@@ -1,5 +1,5 @@
 var width = 1280,
-    height = 470,
+    height = 480,
     data = [{
         value: 500,
         //continent: Europe,
@@ -13,7 +13,7 @@ var width = 1280,
         //continent: NAmer,
         name: "USA"
     }, {
-        value: 1250,
+        value: 30000,
         //continent: Europe,
         name: "Finland"
     }, {
@@ -29,7 +29,7 @@ var width = 1280,
         //continent: Asia,
         name: "Japan"
     }, {
-        value: 1100,
+        value: 100,
         //continent: Africa,
         name: "Kenya"
     }, {
@@ -79,20 +79,6 @@ function drawGraph() {
         .enter()
         .append("g")
         .call(force.drag);
-
-        /*.attr("x", function(d) {return d.x;})
-        .attr("y", function(d) {return d.y;}); */
-
-         /*var g = svg.selectAll("g.node")
-      .data(nodes)
-    .enter().append("svg:g")
-      .attr("class", "node")
-      .attr("transform", function(d) { return "translate(" + d.x + ","
-+ d.y + ")"; })
-      .call(force.drag);
-
-  g.append("svg:circle")
-      .attr("r", 5); */
 
 
 
