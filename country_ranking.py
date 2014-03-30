@@ -1,3 +1,18 @@
+import web
+
+render = web.template.render('templates/')
+urls = (
+	'/', 'index'
+	)
+
+class index : 
+	def GET(self):
+		name = 'Bob'
+		return render.index(name)
+
+if __name__ == "__main__" :
+	app = web.application(urls,globals())
+	app.run()
 
 
 def setDictKeys(countries) :
@@ -62,7 +77,6 @@ def scoreCountries(countries, values_list):
 		for component in values_list:
 			if component in scores:
 				weighted_score += scores[component]/num_val
-				print(country + ' ' + str(weighted_score))
 		countries_by_score.update({country : weighted_score})
 
 	return countries_by_score
@@ -71,4 +85,3 @@ countries = {}
 setDictKeys(countries)
 setDictValues(countries)
 countries_by_score = scoreCountries(countries, ['Gender Gap', 'GDP'])
-print(countries)

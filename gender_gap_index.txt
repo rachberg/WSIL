@@ -1,0 +1,137 @@
+Maximum 0.8731
+Iceland	0.8731
+Finland	0.8421
+Norway	0.8417
+Sweden	0.8129
+Philippines	0.7832
+Ireland	0.7823
+New Zealand	0.7799
+Denmark	0.7779
+Switzerland	0.7736
+Nicaragua	0.7715
+Belgium	0.7684
+Latvia		0.7610
+Netherlands	0.7608
+Germany	0.7583
+Cuba	0.7540
+Lesotho	0.7530
+South Africa	0.7510
+United Kingdom	0.7440
+Austria	0.7437
+Canada	 0.7425
+Luxembourg	0.7410
+Burundi 	0.7397
+United States	0.7392
+Australia	0.7390
+Ecuador		0.7389
+Mozambique	0.7349
+Bolivia		0.7340
+Lithuania	0.7308
+Barbados	0.7301
+Spain	0.7266
+Costa Rica	0.7241
+Kazakhstan	0.7218
+Mongolia	0.7204
+Argentina	0.7195
+Colombia	0.7171
+Trinidad and Tobago	0.7166
+Panama	0.7164
+Slovenia 0.7155
+Malawi 	0.7139
+Bahamas 	0.7128
+Cape Verde	0.7122
+Serbia	0.7116
+Bulgaria	0.7097
+Namibia		0.7094
+France	0.7089
+Uganda	0.7086
+Jamaica	0.7085
+Guyana	0.7085
+Croatia	0.7069
+Venezuela	0.7060
+Portugal	0.7056
+Moldova	0.7037
+Israel	0.7032
+Poland	0.7031
+Sri Lanka	0.7019
+Madagascar	0.7016
+Macedonia	0.7013
+Singapore	0.7000
+Estonia	0.6997
+Laos	0.6993
+Russian Federation	0.6983
+Brazil	0.6949
+Kyrgyzstan	0.6948
+Ukraine	 0.6935
+Thailand	0.6928
+Tanzania	0.6928
+Senegal	 0.6923
+Mexico		0.6917
+China		0.6908
+Romania	0.6908
+Italy	0.6885
+Dominican Republic	0.6867
+Vietnam	0.6863
+Slovakia	0.6857
+Bangladesh	0.6848
+Ghana	0.6811
+Uruguay	0.6803
+Kenya	0.6803
+Cyprus	0.6801
+Peru	0.6787
+Greece	0.6782
+Honduras	0.6773
+Czech Republic	0.6770
+Malta	0.6761
+Botswana	0.6752
+Georgia	0.6750
+Hungary	0.6742
+Brunei	0.6730
+Paraguay	0.6724
+Tajikistan	0.6682
+Chile	0.6670
+Angola	0.6659
+Bhutan	0.6651
+Armenia	0.6634
+Indonesia	0.6613
+El Salvador	0.6609
+Maldives	0.6604
+Mauritius	0.6599
+Azerbaijan	0.6582
+Cameroon	0.6560
+India	0.6551
+Malaysia	0.6518
+Burkina Faso	0.6513
+Cambodia	0.6509
+Japan	0.6498
+Nigeria		0.6469
+Belize		0.6449
+Albania		0.6412
+United Arab Emirates	0.6372
+Suriname	0.6369
+South Korea	0.6351
+Bahrain	0.6334
+Zambia	0.6312
+Guatemala 	0.6304
+Qatar 	0.6299
+Kuwait	0.6292
+Fiji		0.6286
+Ethiopia	0.6198
+Jordan	0.6093
+Turkey	0.6081
+Nepal	0.6053
+Oman	0.6053
+Lebanon	0.6028
+Algeria	0.5966
+Egypt	0.5935
+Benin	0.5885
+Saudi Arabia	0.5879
+Mali	0.5872
+Morocco	0.5845
+Iran	0.5842
+Cote d'Ivoire	0.5814
+Mauritania	0.5810
+Syria	0.5661
+Chad	0.5588
+Pakistan	0.5459
+Yemen	0.5128
