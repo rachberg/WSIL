@@ -26,7 +26,7 @@
       else {
         var newdiv = document.createElement('div')
 
-        newdiv.innerHTML += "<input type='text' class='form-control' placeholder='username' name='user_name" + counter + "'>"
+        newdiv.innerHTML += "<input type='text' class='form-control' placeholder='e.g. gender equality' name='component" + counter + "'>"
         counter++;
         document.getElementById(divName).appendChild(newdiv);
      }
@@ -37,26 +37,54 @@
 
 
   <body style="background-image:url('https://31.media.tumblr.com/845e1f9958fc4948e4d9aa385491b4b0/tumblr_n3275mPbwD1rl0no8o1_1280.jpg');">
+
+  <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">where should I live?</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="sources.html" onclick="_gaq.push(['_trackEvent', 'Navbar', 'Community links', 'Expo']);">sources</a></li>
+      </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
  
 
-          <h1 style="text-align:center; color:blueviolet; text-shadow: 5px 0px 10px gray">where should i live?</h1>
-
+          <!--<h1 style="text-align:center; color:blueviolet; text-shadow: 5px 0px 10px gray">where should i live?</h1>-->
+          <br></br>
           <h3 style="text-align:center; color:darkmagenta; text-shadow: 5px 0px 10px gray"> I want to live in a place where this is valued:</h3>
 
+  <div class="container">
+
   <form class="component" role="form" action="" method="post"> 
-    
       <div id="dynamicInput">
-        <div id="dynamicInput">
-          <input style="margin-left:540px;margin-right:1200px" type="text" class="form-control" placeholder="e.g. gender equality" name="user_name1" required autofocus>
-        </div>
+          <input style="text-align:center" type="text" class="form-control" placeholder="e.g. gender equality" onkeypress="handleKeyPress(event,this.form)" name="component1" required autofocus>
       </div>
-      <p></p>
         <div style="text-align:center">
-          <button type="button" class="btn btn-lg btn-default" onClick="addInput('dynamicInput')" style="text-align:center" style="text-align:center" >add another
-          <button class="btn btn-lg btn-default" type="submit" id="submit" style="text-align:center" >where should i live?</button>
-        </div>
+          <button type="button" class="btn btn-lg btn-default" onClick="addInput('dynamicInput')" style="text-align:center" style="text-align:center" >add another </button>
         </div>
   </form>
+
+</div>
+
+<script type="text/javascript">
+  function handleKeyPress(e,form){
+  var key=e.keyCode || e.which;
+    if (key==13){
+      form.submit();
+    }
+  }
+</script>
+
 
     <script src="percentfilled.js"></script>
 
