@@ -13,7 +13,7 @@ def setDictValues(countries):
 	single_files = {}
 	single_files.update({"GDP" : ['+', 'gdp_per_capita.txt']})
 	single_files.update({"Gender Gap" : ['+', 'gender_gap_index.txt']})
-	single_files.update({"Homicide Rate" : ['-', 'homicide_rate.txt']})
+	# single_files.update({"Homicide Rate" : ['-', 'homicide_rate.txt']})
 
 	mult_files = {}
 	#mult_files.update{"Safety": [ ['-', 'homicide_rate.txt'], ['+', 'political_stability.txt']}
